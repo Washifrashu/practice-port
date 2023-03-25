@@ -1,5 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    
 }
 .head{
     background:white;
@@ -27,13 +28,11 @@ nav li{
     list-style: none;
     margin-left: 50px;
 }
-section{
+.box{
     display: flex;
 
 }
-section li{
-    list-style: none;
-}
+
 .form-box{
     margin-bottom: 24px;
     color:#FFFFFF ;
@@ -49,14 +48,30 @@ section li{
     font-size: 12px;
     font-weight:600;
     margin-bottom: 5px;
+    list-style: none;
 }
 .cont{
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
+    margin-left: 90px;
+    
 }
 .img{
-    height: 400px;
-    width: 700px;
+    height:450px;
+    width:600px;
+    border-radius: 10px;
+    margin-right: 80px;
+}
+.button{
+    background-color:#056d45;
+    color: white;
+    height: 50px;
+    width: 480px;
+    margin-left: 40px;
+    border-radius:5px ;
+    font-weight: 600;
+    font-size: 13px;
+    border:1px solid ;
     
 }
